@@ -1,23 +1,30 @@
-Step One-
-	create maven project
-Step Two-
-	update pom.xml file--then maven update
-	1.properties
-	2.dependencies
-	3.plug-ins
-Step 3
-	Create and update appropriate package and classes in the src/main\
-	
-Step 4
-	Build BaseTest with is a relationship
-	openBrowser and application
-	close browser and application
-	take screenshot
-	assertion
-Step 5
-	Build propertiesReader in the utilities package and
-	Create method for each key
-	
-Step 6
-	develop packages for different pages using page object model style of coding
-	use PageFactory.initelements class if possible
+Step-1
+   Create maven project
+ Step-2
+    update pom.xml file--then maven update
+       properties
+       dependencies
+       plug-ins
+       
+Step-3
+    create and update appropriate package and classes in the src/main/java
+    
+step-4
+  build BaseTest with is-a-relationship
+     open browser and application
+     close browser and application
+     take screen shot
+     assertion 
+     
+ step-5
+ build PropertiesReader in the utilities package and 
+ create method for each key.
+ 
+ step-6
+    develop packages for different pages using page object model style of coding
+    use PagePactoryInitElements class if possible
+ 
+ step-7
+     develop packages for different tests using TestNg model style of coding
+     use BaseTest as a parent test
+     build has-a-relationship with appropriate page
